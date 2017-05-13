@@ -1,0 +1,194 @@
+/*** Basic Setup ***/
+/** base clor: #e74c3c ***/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Lato', 'Arial', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    background-color: #fff;
+    color: #555;    
+    text-rendering: optimizeLegibility;
+}
+
+.row{
+    margin: 0 auto;
+    max-width: 1140px;
+}
+
+/*** ALL LINKS ***/
+a {
+    list-style: none;
+    text-decoration: none;
+}
+
+/*** HEADER ***/
+header {
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(images/tech3.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;  
+}
+
+.header-text {
+    position: absolute;
+    width: 1140px;
+    top: 50%;
+    left: 50%;
+    color: #fff;
+    transform: translate(-50%, -50%);
+}
+
+h1 {
+    margin: 0;
+    color: #fff;
+    font-size: 250%;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    word-spacing: 2px;    
+    margin-bottom: 10px;
+}
+
+
+.dp {
+    float:left;
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    margin: 50 10px;
+    transition: height 0.3s, width 0.3s;
+}
+
+.dp-info {
+    float:left;
+    margin: 70 10px;
+    color: #fff;
+    text-transform: uppercase;    
+    font-weight: 300;
+    letter-spacing: 1px;
+    word-spacing: 2px; 
+}
+
+.name {
+    font-weight: 500;
+}
+.job {
+    font-size: 70%;
+}
+
+header img:hover {    
+    height: 115px;
+    width: 115px;
+}
+
+.main-nav {
+    float: right;
+    list-style: none;    
+    margin: 70 0px;
+}
+
+.main-nav li {
+    display: inline-block;
+    margin-left: 40px;
+}
+
+.main-nav li a:link,
+.main-nav li a:visited{
+    color: #fff;
+    border-bottom: 2px solid #e74c3c transparent;
+    padding-bottom: 5px;
+    text-transform: uppercase;
+    transition: border-bottom 0.2s;
+}
+
+.main-nav li a:hover,
+.main-nav li a:active{
+    border-bottom: 2px solid #e74c3c;
+}
+
+/*** BUTTONS ***/
+.btn:link,
+.btn:visited {
+    display: inline-block;    
+    border-radius: 200px;
+    padding: 10px 30px;
+    font-weight: 300;
+    transition: background-color 0.2s, border 0.2s, color: 0.2s;
+}
+
+.btn-full:link,
+.btn-full:visited {
+    border: 1px solid #e74c3c;
+    background-color: #e74c3c;
+    color: #fff;
+    margin-right: 15px;
+}
+
+.btn-trans:link,
+.btn-trans:visited {
+    border: 1px solid #e74c3c;
+    color: #e74c3c;
+}
+
+
+.btn:hover,
+.btn:active {    
+    background-color: #e3301e;
+}
+
+.btn-full:hover,
+.btn-full:active {
+    border: 1px solid #e3301e; 
+    color: #fff;
+}
+
+.btn-trans:hover,
+.btn-trans:active {
+    border: 1px solid #e3301e;
+    color: #fff;
+}
+
+
+.card-wrapper {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.card {
+    display: inline-block;
+    vertical-align: top;
+    margin: 10px;
+    width: 216px;
+    text-align: left;
+    background-color: #fff;
+    box-shadow: 0 2px 2px #cbcbcb;
+    position: relative;
+    
+}
+
+
+
+.card-skill-image img {
+    width: 100%;
+    height:auto;
+    vertical-align: middle;
+    display: block;
+}
+
+.skill-section p{
+    font-size: 45;
+    text-align: center;
+    margin-top: 20;
+}
+
+.card-skill-bottom {
+    
+}
