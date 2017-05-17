@@ -1,5 +1,5 @@
 /*** Basic Setup ***/
-/** base clor: #e74c3c ***/
+/** base color: #e74c3c ***/
 
 * {
     margin: 0;
@@ -16,9 +16,82 @@ html {
     text-rendering: optimizeLegibility;
 }
 
+/***** REUSABLE ****/
+
 .row{
     margin: 0 auto;
     max-width: 1140px;
+}
+
+section {
+    padding: 80px 0;
+}
+
+.box {
+    padding: 1%;
+}
+
+
+/**** HEADINGS *****/
+h1,h2,h3 {
+    
+    font-weight: 300;
+    text-transform: uppercase;    
+    word-spacing: 2px;    
+    letter-spacing: 1px;
+}
+
+
+h1 {
+    margin: 0;
+    color: #fff;
+    font-size: 250%;  
+    margin-bottom: 10px;
+}
+
+
+h2 {
+    font-size: 180%;
+    color: #555;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+h2:after {
+    display: block;
+    height: 2px;
+    background-color: #e3301e;
+    content: " ";
+    width: 100px;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+h3 {
+    color: #555; 
+    margin-bottom: 10px;
+}
+
+/**** PARAGRAPHS *****/
+
+section p{
+    color: #555;
+    text-align: justify;
+    margin:  0 10%;
+    font-size: 90%;
+    word-spacing: 2px;
+    line-height: 145%;
+    width: 80%;
+}
+
+
+/*** ICONS ****/
+
+.icon-big{
+    font-size: 250%;
+    display: block;
+    color: #e74c3c;
+    margin-bottom: 10px;
 }
 
 /*** ALL LINKS ***/
@@ -29,7 +102,7 @@ a {
 
 /*** HEADER ***/
 header {
-    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(images/tech3.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url(images/tech3.jpg);
     background-size: cover;
     background-position: center;
     height: 100vh;  
@@ -42,17 +115,6 @@ header {
     left: 50%;
     color: #fff;
     transform: translate(-50%, -50%);
-}
-
-h1 {
-    margin: 0;
-    color: #fff;
-    font-size: 250%;
-    font-weight: 300;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    word-spacing: 2px;    
-    margin-bottom: 10px;
 }
 
 
@@ -154,7 +216,43 @@ header img:hover {
     color: #fff;
 }
 
+/*** REACH ME SECTION ***/
 
+.section-whoami {
+    background-color: #f4f4f4;
+}
+
+.box p {
+    font-size: 90%;
+    text-align: justify;
+    word-spacing: normal;
+    margin-left: 0;
+}
+
+sub {
+    text-transform: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**
 .card-wrapper {
     margin-left: auto;
     margin-right: auto;
@@ -192,3 +290,4 @@ header img:hover {
 .card-skill-bottom {
     
 }
+**/
