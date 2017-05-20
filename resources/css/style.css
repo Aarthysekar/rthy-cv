@@ -91,7 +91,6 @@ section p{
     font-size: 250%;
     display: block;
     color: #e74c3c;
-    margin-bottom: 10px;
 }
 
 /*** ALL LINKS ***/
@@ -216,10 +215,10 @@ header img:hover {
     color: #fff;
 }
 
-/*** REACH ME SECTION ***/
+/*** WHO AM I SECTION ***/
 
 .section-whoami {
-    background-color: #f4f4f4;
+    background-color: #fff;
 }
 
 .box p {
@@ -232,6 +231,54 @@ header img:hover {
 sub {
     text-transform: none;
 }
+
+/*** REACH ME SECTION ***/
+.reachme {
+    position: relative;
+    width: 100%;
+    height: 500px;
+}
+
+.map-box {
+    width: 100%;
+    height: 500px;
+    position: relative;
+    z-index: 10;
+}
+
+.reachme-box {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 50%;
+    height: 500px;
+    z-index: 999;
+    background-color: rgba(255, 255, 255, 0.74);
+}
+
+.iPhone img {
+    height: 500px;
+    width: 60%;
+    position: relative;
+}
+
+.iPhone {
+    position: relative;
+}
+.reachme-links {
+    float: right;   
+    height: 500px;    
+    margin-right: 150px;
+    position: absolute;
+    top: 20%;
+    right: 20%;
+}
+
+.reachme-icons {
+    display: block;
+}
+
+
 
 
 
